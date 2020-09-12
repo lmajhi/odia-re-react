@@ -1,10 +1,8 @@
 import pairs from "./pairs";
 const transformIntoOdia = (input, keymap = pairs) => {
-  console.log(input);
-  console.log(keymap);
+
   let output = input;
   for (const [key, value] of Object.entries(keymap)) {
-    console.log(key, value);
     output = output.replace(value, key);
   }
   return output;
