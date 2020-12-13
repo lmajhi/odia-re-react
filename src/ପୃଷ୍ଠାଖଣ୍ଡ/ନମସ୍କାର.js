@@ -1,9 +1,10 @@
 import React from "react";
+const ଡିଭ  = (props) => <div>{props.children}</div>;
 
 export default function ନମସ୍କାର(ଗୁଣାବଳି) {
   return (
-    <div>
+    <ଡିଭ>
       <h1>ନମସ୍କାର {ଗୁଣାବଳି.ନାମ}</h1>
-    </div>
+    </ଡିଭ>
   );
 }
