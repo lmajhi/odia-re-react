@@ -16,7 +16,6 @@ export default function TransformInterface() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("An essay was submitted for transformation: " + En);
     setOr(transformer(En));
   }
 
